@@ -1,0 +1,6 @@
+<article>
+    <h1>Soll, Austria</h1>
+    <p>Last year, we broke with tradition and chose to ski in Austria, as apposed to our usual choice of France. </p>
+    <p>Soll definitely didn't dissapoint us. The slopes, food and apres ski were all fantastic.</p>
+    <p><img src="Soll.jpg" width="500" height="333"></p>
+  </article>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Travel</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background: #B2D732;
+  padding: 30px;
+  text-align: center;
+  font-size: 45px;
+  color: #347B98;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background:#F0F7D4;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background:#F0F7D4;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background: 
+#092834;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="http://localhost:8000/interests.html">Back to Interests & Hobbies</a></li>
+  <li class="dropdown">
+   
+    
+  </li>
+</ul>
+
+</body>
+</html>
+
+<header>
+  <h2>Travel</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://www.ski-austria.com/soell/">Soll,Austria</a></li>
+      <li><a href="https://en.tignes.net/">Tignes,France</a></li>
+      <li><a href="https://www.valdisere.com/en/">Val d'Isere,France</a></li>
+      <li><a href="https://www.trentino.com/en/trentino/val-di-sole/marilleva/">Marilleva,Italy</a></li>
+      <li><a href="https://www.quintadolago.com/en/">Quinta Do Lago, Portugal</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Soll, Austria</h1>
+    <p>Last year, we broke with tradition and chose to ski in Austria, as apposed to our usual choice of France. </p>
+    <p>Soll definitely didn't dissapoint us. The slopes, food and apres ski were all fantastic.</p>
+    <p><img src="Soll.jpg" width="500" height="333"></p>
+  </article>
+    
+    <article>
+    <h1>Tignes,France</h1>
+    <p>Out of all the places I've been skiing, Tignes is undoubtedly my favourite. It has the best slopes I'v ever skied on and the main town there had every you could have asked for!</p>
+    <p>We loved it so much the first time that we returned there for the next 5 years! We almost knew every ski route off by heart!</p>
+    <p><img src="Tignes.jpg"  width="500" height="333">
+  </article>
+    </section>
+    
+    <section>
+    <article>
+    <h1>Val d'Isere,France</h1>
+    <p>We went skiing in Val d'Isere when i was in 1st Year and I still remember it vividly. The weather, food and slopes were all amazing the time we were there, so we were very lucky!!</p>
+    <p>But all good things must come to an end, and that happened when I broke my arm after falling on one of the slopes. I was out of action for the rest of the holiday.</p>
+    <p><img src="valdiserefrance.jpg"  width="500" height="333">
+  </article>
+        
+    <article>
+    <h1>Marilleva,Italy</h1>
+    <p>I've been skiing in Italy twice as a result of my secondary schools annual ski trip. The first time was when i went in 2nd Year, and then again in 5th Year as an instructor.</p>
+    <p>Being a skiing instructor for the first time was a great experience. I was given my own group to work with for the week and it was great to see them all improve.</p>
+    <p><img src="ItalySkiing.jpg"  width="500" height="333">
+  </article>
+  </section>    
+   
+<section>
+    <article>
+    <h1>Quinta Do Lago, Portugal</h1>
+    <p>When the snow gets too much for us, we like to soak up the sun in Quinta Do Lago, in Portugal. We've been going here for a while now so we know the area quite well which makes the holiday easier each year we go back.</p>
+    <p>The beaches are quiet and there's a fantastic lack of noisy children, which is difficult to find in most sun-soaked holiday areas.</p>
+    <p><img src="Travel-QDL.jpg"  width="500" height="333">
+  </article>
+</section>
+
+<footer>
+  <p></p>
+</footer>
+
+</body>
+</html>

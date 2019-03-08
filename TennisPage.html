@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tennis</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background: #B2D732;
+  padding: 30px;
+  text-align: center;
+  font-size: 45px;
+  color: #347B98;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background:#F0F7D4;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background:#F0F7D4;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background: 
+#092834;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="http://localhost:8000/interests.html">Back to Interests & Hobbies</a></li>
+</ul>
+
+<header>
+  <h2>Tennis</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://tennis.ucc.ie/">UCC Tennis</a></li>
+      <li><a href="http://www.bishopstownlawntennisclub.com/">Bishopstown Lawn Tennis Club</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>UCC Tennis</h1>
+    <p>I train with UCC Tennis Club every Sunday from 21:00 to 22:15. We train in Sundays Well Tennis Club. I train in the 'Advanced Intermidiates' category, so as you could expect, the standard every week is quite high.</p>
+    <p>For me, playing with very talented players allows me to improve week on week. The club has 8 courts, which allows each member to play games without having to sit out for too long.</p>
+    <p><img src="UccTennisCourts.jpg" width="500" height="333"></p>
+  </article>
+    
+    <article>
+    <h1>Bishopstown Lawn Tennis Club</h1>
+    <p>I played with Bishopstown Lawn Tennis Club for two years from 2016 to 2017. We used to train every Wednesday from 19:00 to 20:30.</p>
+    <p>The coaches mixed the groups with abilities on each end of the scale, something that lead to the decent players having to go against players that shouldnt have been there at all!</p>
+    <p><img src="BishopstownLawnTennisCourts.jpg"  width="500" height="333">
+  </article>
+</section>
+
+<footer>
+  <p></p>
+</footer>
+
+</body>
+</html>
