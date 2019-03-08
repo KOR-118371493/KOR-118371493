@@ -57,7 +57,7 @@
        
         <br />
             <center>
-            <input type="button" name="btnCalc" id="btnCalc" onclick="calcSub()" value="Calculate Amount"/>
+                <input type="button" name="btnCalc" id="btnCalc" onclick="calcSub()" value="Calculate Amount" required=""/>
             <input type="button" name="btnClear" id="btnClear" onclick="AmountClear()" value="Clear"/>
             <input type="submit" name="btnProceed" id="btnProceed" onclick="" value="Proceed"/>
         </center>

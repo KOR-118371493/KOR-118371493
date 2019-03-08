@@ -1,7 +1,7 @@
 <?php
 session_start();
 $fullNameValue = "";
-$TotalValue2 = "";
+$totalValue2 = "";
 
 /*
  *Create a session variable for the mobile number
@@ -33,20 +33,20 @@ $TotalValue2 = "";
 								</tr>
 								<tr>
 									<td>Name</td>
-									<td><input type="text" id="txtName" name="txtName" value="" /></td>
+                                                                        <td><input type="text" id="txtName" name="txtName" value="" required="" /></td>
 								</tr>
 								<tr>
 									<td>Phone Number</td>
-									<td><input type="text" id="txtNum" name="txtNum" value="" /></td>
+                                                                        <td><input type="text" id="txtNum" name="txtNum" value="" required="" onkeypress="return isNumber(event)" /></td>
 								</tr>
 								<tr>
 									<td>Password</td>
-									<td><input type="text" id="txtPassword" name="txtPassword" value="" /></td>
+                                                                        <td><input type="text" id="txtPassword" name="txtPassword" value="" required="" onkeypress="return isNumber(event)" /></td>
 								</tr>
 								
 								<tr>
 									
-									<td><input type="hidden" id="txtTotal" name="txtTotal" value="?/php echo $totalValue;?>"/></td>
+									<td><input type="hidden" id="txtTotal" name="txtTotal" value="<?php echo $totalValue;?>"/></td>
 								</tr>
 								
 							</table>
@@ -57,6 +57,17 @@ $TotalValue2 = "";
 							<input type="submit" id="btnContinue" name="btnContinue" onclick="" value="Continue" />
 					</center>
 					</div>
+                    <script>
+                    //the following code if from https://stackoverflow.com/questions/7295843/allow-only-numbers-to-be-typed-in-a-textbox
+                    function isNumber(evt) {
+                    evt = (evt) ? evt : window.event;
+                    var charCode = (evt.which) ? evt.which : evt.keyCode;
+                    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                    return false;
+                    }
+                    return true;
+}
+                    </script>
 					</form>
 				</body>
 			</html>
